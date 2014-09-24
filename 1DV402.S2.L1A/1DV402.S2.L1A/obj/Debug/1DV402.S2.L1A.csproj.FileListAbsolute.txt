@@ -1,0 +1,6 @@
+P:\Git\1dv402-al222jf-2.1-gissaDetHemligaTalet\1DV402.S2.L1A\1DV402.S2.L1A\bin\Debug\1DV402.S2.L1A.exe.config
+P:\Git\1dv402-al222jf-2.1-gissaDetHemligaTalet\1DV402.S2.L1A\1DV402.S2.L1A\obj\Debug\1DV402.S2.L1A.csprojResolveAssemblyReference.cache
+P:\Git\1dv402-al222jf-2.1-gissaDetHemligaTalet\1DV402.S2.L1A\1DV402.S2.L1A\bin\Debug\1DV402.S2.L1A.exe
+P:\Git\1dv402-al222jf-2.1-gissaDetHemligaTalet\1DV402.S2.L1A\1DV402.S2.L1A\bin\Debug\1DV402.S2.L1A.pdb
+P:\Git\1dv402-al222jf-2.1-gissaDetHemligaTalet\1DV402.S2.L1A\1DV402.S2.L1A\obj\Debug\1DV402.S2.L1A.exe
+P:\Git\1dv402-al222jf-2.1-gissaDetHemligaTalet\1DV402.S2.L1A\1DV402.S2.L1A\obj\Debug\1DV402.S2.L1A.pdb
