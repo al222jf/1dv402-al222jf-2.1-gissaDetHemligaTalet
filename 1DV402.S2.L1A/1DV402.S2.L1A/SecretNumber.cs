@@ -13,18 +13,17 @@ namespace _1DV402.S2.L1A
         private int _number;
 
 
-
-
-
         public void Initialize()
         {
-            _count = 0;
-
-            Random nr = new Random();
-            _number = nr.Next(1, 101);
+            int zero = 0;
+            _count = zero;
+           
+            if (_count == 0)
+            {
+                Random nr = new Random();
+                _number = nr.Next(1, 101);
+            }
         }
-
-
 
         public bool MakeGuess(int number)
         {
@@ -34,11 +33,11 @@ namespace _1DV402.S2.L1A
             }
             if (number < _number)
             {
-                Console.WriteLine("{0} är för lågt. Du har {1} gissningar kvar.", number, _count);
+                Console.WriteLine("{0} är för lågt. Du har {1} gissningar kvar.", 7 - number, _count);
             }
             if (number > _number)
             {
-                Console.WriteLine("{0} är för högt. Du har {1} gissningar kvar.", number, _count);
+                Console.WriteLine("{0} är för högt. Du har {1} gissningar kvar.", number, 7 - _count);
             }
 
             if (_count == MaxNumberOfGuesses)
@@ -48,7 +47,7 @@ namespace _1DV402.S2.L1A
 
             if (number == _number)
             {
-                Console.Write("RÄTT GISSAT. Du klarade det på {0} försök", _count - 7);
+                Console.Write("RÄTT GISSAT. Du klarade det på {0} försök", _count );
                 return true;
             }
             else
@@ -59,7 +58,7 @@ namespace _1DV402.S2.L1A
 
         public SecretNumber()
         {
-
+            Initialize();
         }
         
         
